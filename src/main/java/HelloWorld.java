@@ -9,6 +9,6 @@ public class HelloWorld implements SparkApplication {
 
 	@Override
 	public void init() {
-		get("/cicd", (req, res) -> " This is CICD from Local");
+		get("/hello1", (req, res) -> " This is CICD from Local");
 	}
 }
